@@ -4,6 +4,13 @@
 */
 class Double {
 
+ constructor(n){
+     this.n = n;
+   }
+
+ getValue(){
+   return this.n+this.n;
+ }
 }
 
 const doubleOfTwo = new Double(2);
